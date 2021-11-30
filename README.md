@@ -1,10 +1,8 @@
-Computers concept: Graphs
-Component: Network Flow
-Computation: Max Match
+| Graphs | Network Flow | Max Match |
 
 The 2 examples (uploaded photos of rough work on papers) compare the performance of...
-algo #1: Hopcroft-Karp algo
-algo #2: min-IPQ BH algo
+-- algo #1: Hopcroft-Karp algo
+-- algo #2: min-IPQ BH algo
 
 More improvement :
 -- min-IPQ implemented as a BH (binary heap) runs in O(E * log2(V)) time (E: # of edges | V: # of nodes). This is better than HK algo, which runs in O(E * sqrt(V)) time
