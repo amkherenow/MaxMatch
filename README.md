@@ -3,7 +3,6 @@ Graphs | Network Flow | Max Match
 The 2 examples (uploaded photos of rough work on papers) compare the performance of...
 
 algo #1: Hopcroft-Karp algo
-
 algo #2: min-IPQ BH algo
 
 
