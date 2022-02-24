@@ -10,6 +10,6 @@ More improvement :
 
 -- min-IPQ implemented as a BH (binary heap) runs in O(E * log2(V)) time (E: # of edges | V: # of nodes). This is better than HK algo, which runs in O(E * sqrt(V)) time
 
--- Since "max match" computation involves lesser poll() OPs and more decreaseKey() OPs, tree order (of heap) can be set as log2(V), which makes it a D-ary heap (DH), and of height log2(D) = log2(log2(V))
+-- Since "max match" computation involves lesser poll() OPs and more decreaseKey() OPs, tree order (of heap) can be set as log2(V), which makes it a D-ary heap (DH), and of height h = log<D>(V) = log<log2(V)>(V)
 
--- Hence min-IPQ would run even faster in O(E * log2(log2(V)) time
+-- Hence min-IPQ would run even faster in O(E * log<log2(V)>(V) time
